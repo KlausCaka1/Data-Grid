@@ -1,38 +1,98 @@
-.App {
-  text-align: center;
+.container {
+  margin: 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.flex {
+  display: flex;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #5e8cee;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  font-weight: bold;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header:first-child {
+  font-size: 1.7rem;
+}
+
+.header__button {
+  background: #5e8cee38;
+  border-style: none;
+  border-radius: 3px;
+}
+
+.nav {
+  width: 100%;
+}
+
+
+.body {
+  display: flex;
+  padding-left: 2%;
+  padding-right: 5%;
+}
+
+.cards {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex: auto;
+  margin-left: 5%;
 }
 
-.App-link {
-  color: #61dafb;
+.card {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 3px 6px 2px rgba(0,0,0,0.38);
+  padding: 10px;
+  margin-bottom: 2%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card__header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #5e8cee;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+.card__span__left {
+  display: flex;
+  padding-left: 20px;
+  flex: 2;
+}
+
+.card__name {
+  color: #2da5f1
+}
+
+.card__span__right {
+  display: flex;
+  flex: 1;
+}
+
+.card__bottom {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 15px;
+  padding-top: 5px;
+}
+
+.button {
+  margin-left: 1%;
+  height: 40px;
+  background: #5e8cee38;
+  border-style: none;
+  border-radius: 3px;
+}
+
+
+.modal {
+}
+
+.MuiDataGrid-row.Mui-odd {
+  background-color: rgb(224, 224, 224);
 }

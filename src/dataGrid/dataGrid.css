@@ -1,0 +1,47 @@
+.dataGrid__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dataGrid__name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 0.2rem;
+}
+
+.name__card {
+    display: flex;
+    flex: 0.7;
+    flex-direction: column;
+    box-shadow: 0 3px 6px 2px rgba(0,0,0,0.38);
+    margin-right: 2%;
+    margin-left: 15px;
+    padding: 15px;
+    height: 100%;
+    line-height: 2.5rem
+}
+
+.card__category {
+    display: flex;
+    flex-direction: column;
+    line-height: 2rem;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.dataGrid__card {
+    display: flex;
+    flex: 5;
+    flex-direction: column;
+    box-shadow: 0 3px 6px 2px rgba(0,0,0,0.38);
+    padding: 15px 10px 10px 10px
+}
+
+.table__header {
+    font-size: 1.7rem;
+    font-weight: bold;
+    border: 1px solid #b8b8b8;
+    text-align: center;
+    margin-bottom: 3%;
+}
