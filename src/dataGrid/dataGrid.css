@@ -45,3 +45,56 @@
     text-align: center;
     margin-bottom: 3%;
 }
+
+.table__button {
+    background:  #3672f52d;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-style: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.ag__modal {
+    background: white;
+    position: absolute;
+    margin: auto;
+    top: 30%;
+    right: 23%;
+    border: 1px solid;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.ag__modal__title {
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.ag__modal__body {
+    margin-top: 4rem;
+}
+
+
+.ag__modal__item {
+    margin: 10px;
+}
+
+.ag__modal__buttons {
+    display: flex;
+    justify-content: space-around;
+    width: 100%
+}
+
+.ag__modal__button {
+    border-style: none;
+    margin-top: 4rem;
+    width: 100px;
+}
